@@ -14,7 +14,7 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-  origin: 'http://localhost:5173', // Ensure this is set in your .env file
+  origin: 'https://bespoke-manatee-0b9eec.netlify.app/', // Ensure this is set in your .env file
   credentials: true
 }));
 
